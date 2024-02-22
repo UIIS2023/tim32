@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-link:nth-child(3) {
+    border-bottom: 1px solid white;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+header{
+    box-sizing: content-box;
+}
+.menu button:hover{
+    background-color: white;
+    color: rgba(255, 0, 22);
+}
+.menu button {
+    border: 1px solid white;
+}
+.footer-link:nth-child(3) {
+    border-bottom: 1px solid white;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.exit {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 13, 1) 35%, rgba(255, 0, 22, 1) 100%);
+    height: 100vh;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+
+}
+
+.first {
+    display: flex;
+}
+
+.text {
+    width: 45%;
+}
+
+.exit .text p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    word-spacing: 3px;
+    margin-top: 35px;
+}
+
+.exit .text h1 {
+    font-size: 36px;
+    color: white;
+    background-color: red;
+    width: 15%;
+}
+
+.galerija {
+    width: 100%;
+}
+
+.exit .carousel {
+    margin-left: 50px;
+}
+
+.carousel {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.carousel img:first-child {
+    opacity: 1;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.second {
+    display: flex;
+}
+
+.lineup {
+    width: 50%;
+    color: white;
+    font-size: 26px;
+}
+
+.exit .lineup h2 {
+    background-color: red;
+
+}
+
+.lineup h2 {
+    width: 47%;
+}
+
+.lista ul {
+    font-size: 18px;
+}
+
+.lista {
+    display: flex;
+    margin: 20px;
+}
+
+.lista ul {
+    margin-right: 150px;
+}
+
+.tickets {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 15px 8px;
+    border-radius: 10px;
+    width: 230px;
+    margin-right: 25px;
+}
+.box:hover{
+    transition: all 0.3s ease;
+    transform: translateY(-20px);
+}
+.regular-ticket {
+    background-color: #020024;
+    color: #fff;
+}
+
+.vip-ticket {
+    background-color: #d31e29;
+    color: #fff;
+}
+
+.camp-ticket {
+    background-color: #9900ff;
+    color: #fff;
+}
+
+.box h2 {
+    font-size: 24px;
+}
+
+.box hr {
+    margin: 10px auto;
+    border: 1px solid #fff;
+}
+
+.box p {
+    margin-top: 25%;
+    font-size: 38px;
+}
+
+.ultra {
+    background: rgb(0, 129, 156);
+    background: linear-gradient(90deg, rgba(0, 129, 156, 1) 0%, rgba(9, 9, 121, 1) 65%, rgba(2, 0, 36, 1) 100%);
+    height: 100vh;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+
+}
+
+.ultra .text p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(170, 202, 216);
+    word-spacing: 3px;
+    margin-top: 35px;
+}
+
+.ultra .text h1 {
+    font-size: 36px;
+    color: white;
+    background-color: blue;
+    margin-left: 84%;
+}
+
+.ultra .lineup h2 {
+    background-color: blue;
+
+}
+#ultra {
+    scroll-margin-top: 75px;
+}

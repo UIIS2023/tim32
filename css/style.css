@@ -1,0 +1,229 @@
+.nav-link:first-child {
+    border-bottom: 1px solid #ff6600;
+}
+.nav-link:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.footer-link:first-child {
+    border-bottom: 1px solid #ff6600;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: #e65100;
+    color: #fff;
+}
+.menu button {
+    border: 1px solid #e65100;
+}
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    backdrop-filter: blur(3px);
+}
+
+.hero {
+    background-image: url("../img/hero-image.jpeg") !important;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+#title {
+    position: absolute; 
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: bold !important;
+    background-color: rgba(51, 51, 51, 0.1);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#title h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+#title button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    margin: 25px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#title button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#title button:hover {
+    background-color: #e65100;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.opis {
+    background: rgb(65, 77, 71);
+    background: linear-gradient(180deg, rgba(65, 77, 71, 1) 0%, rgba(142, 142, 142, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 60vh;
+}
+
+.left {
+    width: 60%;
+    text-align: left;
+}
+
+.left h2 {
+    font-size: 36px;
+    color: #86380d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left p {
+    margin-top: 54px;
+    font-size: 36px;
+}
+
+.zanr {
+    color: #e1b49c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right {
+    width: 40%;
+}
+
+.sigurnost {
+    background: rgb(142, 142, 142);
+    background: linear-gradient(180deg, rgba(142, 142, 142) 0%, rgba(65, 77, 71, 1) 100%);
+    padding: 20px;
+    height: 60vh;
+    text-align: center;
+}
+
+.sigurnost h2 {
+    font-size: 36px;
+    color: #86380d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sigurnost p {
+    margin-top: 54px;
+    font-size: 36px;
+    width: 50%;
+    margin: 75px auto;
+}
+
+#slika {
+    background-image: url("../img/opis_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;
+    height: 75%;
+    box-shadow: inset 0 0 0 1000px rgba(65, 77, 71, 0.6);
+}
+
+.pretraga {
+    height: 55vh;
+    background-color: #fff;
+    padding: 20px;
+    background-image: url("../img/pattern.jpg");
+    background-size: cover;
+}
+
+#pretraga {
+    scroll-margin-top: 95px;
+}
+
+.pretraga-text {
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(119, 119, 119);
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 35%;
+    height: 90%;
+}
+#greska {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 87, 87);
+    transition: all 0.2 ease;
+    display: none;
+}
+.pretraga-text h1 {
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: 15px;
+
+}
+
+.search-bar input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(119, 119, 119);
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.search-bar label {
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #ff813d;
+    margin: 18% 0 0 44%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.search-bar button:hover {
+    background-color: #ff6600;
+    transform: scale(1.5);
+}
+
+.search-bar button img {
+    width: 30px;
+    height: 30px;
+}
+

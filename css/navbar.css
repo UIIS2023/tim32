@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: 50px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.logo-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    margin-right: 70px;
+}
+
+.menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+footer {
+    display: flex;
+    background-color: #333;
+    height: 280px;
+    justify-content: space-between;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+footer .logo .logo-image {
+    margin-top: 25px;
+    width: 100px;
+}
+
+footer .meni {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 75px;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+footer .mapa {
+    margin: 15px 15px 15px auto;
+}
+
+.mapa iframe {
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}

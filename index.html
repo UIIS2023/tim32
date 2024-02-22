@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Festicket</title>
+</head>
+
+<body>
+    <div id="pocetak"></div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#pocetak"><img src="img/logo.png" alt="Logo" class="logo-image"></a>
+                <div class="logo-text"><a href="#pocetak">Festicket</a></div>
+            </div>
+            <div class="menu">
+                <a href="#pocetak" class="nav-link">Pocetna</a>
+                <a href="luka.html" class="nav-link">Luka</a>
+                <a href="elena.html" class="nav-link">Elena</a>
+                <a href="js.html" class="nav-link">JS</a>
+                <button>Kupi kartu</button>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+    </section>
+    <div id="title">
+        <h1>Otkrijte svoj zvuk, rezervišite svoju ulaznicu</h1>
+        <h2>- vaša karta ka nezaboravnim muzičkim avanturama čeka na klik!</h2>
+        <button><a href="#pretraga">Pretraži festival</a></button>
+    </div>
+    <section class="opis">
+        <div class="left">
+            <h2>Zaronite u<br> svet muzičkih doživljaja</h2>
+            <p>
+                Pronađite svoje mesto u ritmu i osetite puls muzičke scene na najuzbudljivijim festivalima širom sveta.
+                Naša platforma vam omogućava da rezervišete ulaznice za najprestižnije koncerte i događaje.
+            </p>
+            <p>
+                Bilo da volite <span class="zanr">rock</span>, <span class="zanr">pop</span>, <span
+                    class="zanr">elektroniku</span> ili <span class="zanr">klasičnu muziku</span><br> mi imamo nešto za
+                svakog ljubitelja zvuka.
+            </p>
+        </div>
+        <div class="right">
+            <div id="slika"></div>
+        </div>
+    </section>
+    <section class="sigurnost">
+        <h2>Bezbedno i jednostavno do ulaznica</h2>
+        <p>
+            Vaša sigurnost nam je prioritet. Sa našom platformom, možete bezbrižno rezervisati ulaznice online i
+            doživeti vrhunski muzički spektakl. Naš jednostavan proces rezervacije omogućava vam da brzo i efikasno
+            obezbedite svoje mesto na najboljim festivalima. Bezbedno putovanje kroz muzički svet počinje ovde!
+        </p>
+    </section>
+    <div class="pretraga" id="pretraga">
+        
+            <div class="pretraga-text">
+                <h1>Pretraži festival</h1>
+                <div class="search-bar">
+                    <label for="ime">Ime festivala</label>
+                    <input id="ime" type="text">
+
+                    <label for="drzava">Država</label>
+                    <input id="drzava" type="text">
+
+                    <label for="grad">Grad</label>
+                    <input id="grad" type="text">
+                    <h4 id="greska">Festival koji ste pretražili ne postoji!</h4>
+                    <button onclick="pretraga()"><img src="img/search-icon.png" alt=""></button>
+                </div>
+            </div>
+        
+    </div>
+    <footer>
+        <div class="logo">
+            <div class="logo-text"><a href="#pocetak">Festicket</a></div>
+            <a href="#pocetak"><img src="img/logo.png" alt="Logo" class="logo-image"></a>
+        </div>
+        <div class="meni">
+            <a href="#pocetak" class="footer-link">Pocetna</a>
+            <a href="luka.html" class="footer-link">Luka</a>
+            <a href="elena.html" class="footer-link">Elena</a>
+            <a href="js.html" class="footer-link">JS</a>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11235.255169233224!2d19.838715141725437!3d45.25155805271725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b100d462acd9f%3A0x6c6724453c8b1fc6!2sFaculty%20of%20Technical%20Sciences!5e0!3m2!1sen!2srs!4v1705020234932!5m2!1sen!2srs"
+                width="600" height="250" frameborder="0" style="border:0"></iframe>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>

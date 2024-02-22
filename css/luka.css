@@ -1,0 +1,263 @@
+.nav-link:nth-child(2) {
+  border-bottom: 1px solid blue;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.menu button {
+  border: 1px solid blue;
+}
+
+.footer-link:nth-child(2) {
+  border-bottom: 1px solid blue;
+}
+
+.footer-link:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.land {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.love {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.land .gore {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right,
+      rgb(255, 185, 255) 0%,
+      rgb(255, 185, 255) 40%,
+      rgb(138, 68, 250) 40%,
+      rgb(138, 68, 250) 100%);
+}
+
+.love .gore {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right,
+      rgb(8, 115, 255) 0%,
+      rgb(8, 115, 255) 60%,
+      rgb(255, 132, 148) 60%,
+      rgb(255, 132, 148) 100%);
+}
+
+.land .gore .levo {
+  width: 40%;
+}
+
+.love .gore .levo {
+  width: 60%;
+}
+
+.land .gore .levo img {
+  width: 85%;
+  height: 88%;
+  border-radius: 10px;
+  margin-left: 8%;
+  margin-top: 12%;
+}
+
+.love .gore .desno img {
+  width: 85%;
+  height: 88%;
+  border-radius: 10px;
+  margin-left: 8%;
+  margin-top: 12%;
+}
+
+.land .gore .desno {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.love .gore .levo {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.land .gore .desno h1 {
+  font-size: 48px;
+  color: #260429;
+  text-align: center;
+  margin-top: 85px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.love .gore .levo h1 {
+  font-size: 48px;
+  color: #260429;
+  text-align: center;
+  margin-top: 85px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.land .gore .desno p {
+  font-size: 36px;
+  color: #e2e2e2;
+  padding: 25px 40px;
+}
+
+.love .gore .levo p {
+  font-size: 36px;
+  color: #e2e2e2;
+  padding: 20px 40px;
+}
+
+.land .gore .desno button img {
+  height: 50px;
+}
+
+.love .gore .levo button img {
+  height: 50px;
+}
+
+#karta1 {
+  scroll-margin-top: 145px;
+}
+
+.land .gore .desno button {
+  background-color: rgb(255, 130, 238);
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 45%;
+  border: 0;
+}
+
+.love .gore .levo button {
+  background-color: rgb(255, 80, 103);
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 45%;
+  border: 0;
+}
+
+.land .gore .desno button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.3);
+}
+
+.love .gore .levo button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.3);
+}
+
+.dole {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right,
+      rgb(163, 226, 255) 0%,
+      rgb(163, 226, 255) 50%,
+      rgb(236, 224, 255) 50%,
+      rgb(236, 224, 255) 100%);
+}
+
+.dole .levo {
+  width: 50%;
+}
+
+.dole .desno {
+  width: 50%;
+
+}
+
+.dole .levo h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 24px;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+li:hover {
+  transform: translateX(30px);
+  transition: all 0.3s ease;
+}
+
+span {
+  border-left: 2px solid pink;
+  padding-left: 5px;
+
+}
+
+.dole .desno {
+  display: flex;
+  align-items: center;
+}
+
+.dole .desno h1 {
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+  transform: rotate(180deg);
+  margin-left: 15px;
+  font-size: 56px;
+}
+
+.gallery {
+  margin: auto;
+  --s: 165px;
+  --g: 10px;
+  --f: 1.5;
+  display: grid;
+  gap: var(--g);
+  width: calc(3*var(--s) + 2*var(--g));
+  aspect-ratio: 1;
+  grid-template-columns: repeat(4, auto);
+}
+
+.gallery>img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .35s linear;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  width: calc(var(--s)*var(--f));
+  height: calc(var(--s)*var(--f));
+}

@@ -1,0 +1,120 @@
+.nav-link:nth-child(4) {
+    border-bottom: 1px solid white;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: white;
+    color: rgba(255, 0, 22);
+}
+.menu button {
+    border: 1px solid white;
+}
+.footer-link:nth-child(4) {
+    border-bottom: 1px solid white;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+:root {
+    --smaller: .75;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    height: 25vh;
+    align-items: center;
+
+    display: flex;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.exit {
+    background-color: red;
+}
+
+.ultra {
+    background-color: blue;
+}
+
+.tomorrowland {
+    background-color: purple;
+}
+
+.lovefest {
+    background-color: pink;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+#exit-countdown {
+    display: block;
+}
+
+#ultra-countdown {
+    display: block;
+}
+
+#tomorrowland-countdown {
+    display: block;
+}
+
+#lovefest-countdown {
+    display: block;
+}
